@@ -1,26 +1,41 @@
+@font-face {
+    font-family: luisFont;
+    src: url(./get_schwifty.ttf);
+}
+
+
+h1 {
+    font-family: luisFont;
+}
+
+
 body {
-    background: lightblue;
+    background: #7a7aa16c;
 }
 
 .container {
     background: white;
+    width: 70%;
+    font-size: 24px;
 }
 
 #intro {
-    background: red;
+    background: rgb(158 217 80 / 42%);
     border: 5px solid green;
 }
 
 /* 0 2 0*/
 
 .git-desc.git-list {
-    background: blue;
+    background: #73e2bf;
 }
 
 /* 0 1 0 */
 .git-desc {
     background: green;
     border: 5px solid yellow;
+    width: 70%;
+    font-size: 1rem;
 }
 
 
